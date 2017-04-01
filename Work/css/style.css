@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+}
+
+.main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+.pageone{
+    background-image: url("../../../../../Photos/2016_09_13_nyc/IMG_2695.JPG");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* Section 0
+	* --------------------------------------- */
+	#section0{
+		padding: 60px 0;
+	}
+	#section0 img{
+		height: 100%;
+		margin: 40px 0 0 0;
+	}
+
+
+
+
+	/* Section 1
+	* --------------------------------------- */
+	#section1 img{
+		position:absolute;
+		left: 40px;
+		top: 100px;
+	}
+
+	#section1 .box{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -192px;
+		margin-left: 89px;
+		width: 395px;
+		z-index: 1;
+	}
+	#section1 .imgsContainer{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 42%;
+		left: 58%;
+		margin-top: -325px;
+		margin-left: -747px;
+		width: 800px;
+		height: 696px;
+	}
+	#section1 img{
+		height: 100%;
+	}
