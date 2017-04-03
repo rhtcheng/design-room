@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(90deg, #faf0cd, #fab397);
+    color: #fff;
 }
 
 .main {
@@ -8,17 +8,17 @@ body{
       margin: 0 auto;
     }
 
-.pageone{
-    background-image: url("../../../../../Photos/2016_09_13_nyc/IMG_2695.JPG");
-    background-size: cover;
-    height: 100vh;
-}
+
+/* 
+	* --------------------------------------- */
 
 
-/* Section 0
+
+/* Section 0 landingpage
 	* --------------------------------------- */
 	#section0{
 		padding: 60px 0;
+        background-image: url(../images/landscape.png);
 	}
 	#section0 img{
 		height: 100%;
@@ -26,36 +26,166 @@ body{
 	}
 
 
-
-
-	/* Section 1
+	/* Section 1 breif
 	* --------------------------------------- */
-	#section1 img{
-		position:absolute;
-		left: 40px;
-		top: 100px;
-	}
-
-	#section1 .box{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-top: -192px;
-		margin-left: 89px;
-		width: 395px;
-		z-index: 1;
-	}
-	#section1 .imgsContainer{
-		display: block;
-		position: absolute;
-		z-index: 1;
-		top: 42%;
-		left: 58%;
-		margin-top: -325px;
-		margin-left: -747px;
-		width: 800px;
-		height: 696px;
+	#section1{
+		padding: 60px 0;
+        background-image: url(../images/ceothink.png);
 	}
 	#section1 img{
 		height: 100%;
+		margin: 40px 0 0 0;
+	}
+
+.breif{
+    width: 70%;
+}
+
+
+/* Section 2 story time
+	* --------------------------------------- */
+	#section0{
+		padding: 60px 0;
+        background-image: url(../images/landscape.png);
+	}
+	#section0 img{
+		height: 100%;
+		margin: 40px 0 0 0;
+	}
+
+
+	/* Section 3 small studio
+	* --------------------------------------- */
+	#section3{
+		padding: 60px 0;
+        background-color: #F15E60;
+	}
+	#section3 img{
+		height: 100%;
+		margin: 40px 0 0 0;
+	}
+
+#slide3{
+    height: 100px;
+    padding: 70px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smallstudio{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/smallstudio.svg) no-repeat 0 0;
+    overflow: hidden;
+}
+
+.studioplacement{
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+.content {
+    position: relative;
+    width: 900px;
+    height: 2000px;
+    padding: 70px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/patient1.png) no-repeat 0 0;
+    overflow: hidden;
+}
+
+.transparentimg{
+    z-index: 999999999999;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/transparentimg.png);
+}
+
+
+#tanimal{
+    top: 400px;
+    left: 105px;
+}
+
+#tfam{
+    top: 375px;
+    left: 280px;
+}
+
+#thier{
+    top: 220px;
+    left: 333px;
+    height: 60px;
+}
+
+#tcramp{
+    top:450px;
+    left: 130px;
+}
+
+#tstairs{
+    top:310px;
+    left: 20px;
+}
+
+
+
+
+/* Section 3
+	* --------------------------------------- */
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* Section 5
+	* --------------------------------------- */
+
+#section5{
+		padding: 60px 0;
+        background-image: url(../images/ceoconclusion-01.png);
+	}
+	#section5 img{
+		height: 100%;
+		margin: 40px 0 0 0;
 	}
